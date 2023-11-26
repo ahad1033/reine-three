@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import HeaderSection from "../../Component/HeaderSection/HeaderSection";
-import img from '../../../src/assets/images/banner-1.jpg';
+import img from "../../../src/assets/images/banner-1.jpg";
 
 const Contact = () => {
   return (
@@ -91,10 +91,10 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div class="">
+                  <div className="">
                     <Link
                       href="gallery.html"
-                      class="btn btn--tra-black hover--black"
+                      className="btn btn--tra-black hover--black"
                     >
                       Send
                     </Link>

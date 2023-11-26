@@ -46,7 +46,7 @@ const NavBar = () => {
         </div>
         <div
           className="offcanvas offcanvas-end canvas-bg"
-          tabindex="-1"
+          tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
@@ -141,7 +141,9 @@ const NavBar = () => {
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">
-                  <Link to="gallery" className="text-white navlink-custom">Gallery</Link>
+                  <Link to="gallery" className="text-white navlink-custom">
+                    Gallery
+                  </Link>
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">

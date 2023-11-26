@@ -22,13 +22,13 @@ const images = [
 const TrendingSection = () => {
   return (
     <div className="px-5 mb-5 pt-5 pb-70 container">
-      <div class="row justify-content-center">
-        <div class="col-md-10 col-lg-8">
-          <div class="section-title text-center mb-6">
+      <div className="row justify-content-center">
+        <div className="col-md-10 col-lg-8">
+          <div className="section-title text-center mb-6">
             {/* <!-- Section ID -->	 */}
-            <span class="section-id">Trending</span>
+            <span className="section-id">Trending</span>
             {/* <!-- Title -->	 */}
-            <h2 class="h2-title">TRENDING STYLE</h2>
+            <h2 className="h2-title">TRENDING STYLE</h2>
           </div>
         </div>
       </div>

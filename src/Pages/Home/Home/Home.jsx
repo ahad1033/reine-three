@@ -9,7 +9,8 @@ import HomeParallax from "../HomeParallax/HomeParallax";
 import ServiceMenu from "../ServiceMenu/ServiceMenu";
 import Gallery from "../Gallery/Gallery";
 import OurLocation from "../OurLocation/OurLocation";
-import TrendingSection from '../../../Pages/Home/TrendingSection/TrendingSection';
+import TrendingSection from "../../../Pages/Home/TrendingSection/TrendingSection";
+import CreateYourStyle from "../CreateYourStyle/CreateYourStyle";
 
 const Home = () => {
   return (
@@ -25,8 +26,8 @@ const Home = () => {
           */}
       <TrendingSection />
       <Gallery />
+      <CreateYourStyle />
       <OurLocation />
-
     </div>
   );
 };

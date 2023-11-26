@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer id="footer-3" class="pt-8 footer division">
-      <div class="container text-center">
+    <footer id="footer-3" className="pt-8 footer division">
+      <div className="container text-center">
         {/* <!-- FOOTER CONTENT --> */}
 
         {/* <!-- END FOOTER CONTENT --> */}
@@ -12,10 +12,10 @@ const Footer = () => {
         {/* <!-- FOOTER DIVIDER LINE --> */}
 
         {/* <!-- FOOTER COPYRIGHT --> */}
-        <div class="bottom-footer">
-          <div class="row">
-            <div class="col">
-              <div class="footer-copyright">
+        <div className="bottom-footer">
+          <div className="row">
+            <div className="col">
+              <div className="footer-copyright">
                 <p>&copy; 2023 Reine. All Rights Reserved</p>
               </div>
             </div>

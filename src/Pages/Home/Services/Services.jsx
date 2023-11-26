@@ -92,10 +92,12 @@ const Services = () => {
         </div>
         {/* Services button starts */}
 
-        <div class="row">
-          <div class="col">
-            <div class="more-btn">
-              <Link to='/service' class="btn btn--tra-black hover--black">See All Services</Link>
+        <div className="row">
+          <div className="col">
+            <div className="more-btn">
+              <Link to="/service" className="btn btn--tra-black hover--black">
+                See All Services
+              </Link>
             </div>
           </div>
         </div>

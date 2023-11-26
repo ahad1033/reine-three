@@ -6,17 +6,17 @@ import slideFour from "../../../assets/images/banner-img/slide-14.jpg";
 
 const HomeBanner = () => {
   return (
-    <div id="hero-3" class="hero-section">
-      <div class="container">
+    <div id="hero-3" className="hero-section">
+      <div className="container">
         {/* <!-- HERO-3 TEXT --> */}
-        <div class="row">
-          <div class="col">
-            <div class="hero-3-txt">
+        <div className="row">
+          <div className="col">
+            <div className="hero-3-txt">
               {/* <!-- Title --> */}
               <h2>Our touch will make your hair look at its best</h2>
 
               {/* <!-- Button --> */}
-              <a href="#lnk-1" class="btn btn--black hover--tra-black">
+              <a href="#lnk-1" className="btn btn--black hover--tra-black">
                 View Salon Menu
               </a>
             </div>
