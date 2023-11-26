@@ -1,20 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import '../src/assets/CSS/lunar.css';
-import '../src/assets/CSS/magnific-popup.css';
-import '../src/assets/CSS/menu.css';
-import '../src/assets/CSS/flaticon.css';
-import '../src/assets/CSS/bootstrap.min.css';
-import '../src/assets/CSS/style.css';
-import '../src/assets/CSS/custom.css';
-import '../src/assets/CSS/animate.css';
-import '../src/assets/CSS/responsive.css';
-import { RouterProvider } from 'react-router-dom';
-import { router } from './Routes/Routers';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
+import "./index.css";
+import "../src/assets/CSS/lunar.css";
+import "../src/assets/CSS/magnific-popup.css";
+import "../src/assets/CSS/menu.css";
+import "../src/assets/CSS/flaticon.css";
+import "../src/assets/CSS/bootstrap.min.css";
+import "../src/assets/CSS/style.css";
+import "../src/assets/CSS/custom.css";
+import "../src/assets/CSS/animate.css";
+import "../src/assets/CSS/responsive.css";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./Routes/Routers";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
